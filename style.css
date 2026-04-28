@@ -34,3 +34,21 @@ body {
 .progress-fill {
     transition: width 1s ease-in-out;
 }
+
+/* Add to the bottom of style.css */
+
+/* Profile Picture Shadow */
+.profile-shadow {
+    box-shadow: 0 20px 25px -5px rgba(0, 106, 78, 0.1), 0 10px 10px -5px rgba(0, 106, 78, 0.04);
+}
+
+/* Custom Animation for Live Status */
+@keyframes pulse-green {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
+
+.online-indicator {
+    animation: pulse-green 2s infinite;
+}
