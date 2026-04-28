@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Dashboard | ShikhaBondhon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#F8FAFC]">
+    <div class="flex min-h-screen">
+        <aside class="w-64 bg-white border-r p-6 hidden lg:block">
+            <h2 class="text-xl font-bold text-[#006A4E] mb-10">ShikhaBondhon</h2>
+            <nav class="space-y-4">
+                <a href="#" class="block p-3 bg-green-50 text-[#006A4E] rounded-lg font-bold">🏠 Dashboard</a>
+                <a href="course.html" class="block p-3 text-gray-600 hover:bg-gray-50 rounded-lg">📚 My Courses</a>
+                <a href="#" class="block p-3 text-gray-600 hover:bg-gray-50 rounded-lg">📝 Handnotes</a>
+                <a href="#" class="block p-3 text-gray-600 hover:bg-gray-50 rounded-lg">💬 Group Chat</a>
+            </nav>
+        </aside>
+
+        <main class="flex-1 p-8">
+            <header class="flex justify-between items-center mb-10">
+                <div>
+                    <h2 class="text-2xl font-bold">Assalamu Alaikum, Tanvir! 👋</h2>
+                    <p class="text-gray-500">You have 3 lessons to complete today.</p>
+                </div>
+                <div class="flex items-center gap-4">
+                    <span class="bg-orange-100 text-orange-600 px-3 py-1 rounded-full font-bold">🔥 12 Day Streak</span>
+                    <img src="https://ui-avatars.com/api/?name=Tanvir&background=006A4E&color=fff" class="w-12 h-12 rounded-full">
+                </div>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center text-blue-600 mb-4">⚛️</div>
+                    <h3 class="font-bold text-lg">HSC Physics</h3>
+                    <p class="text-sm text-gray-500 mb-4">Current: Atomic Models</p>
+                    <div class="w-full bg-gray-100 h-2 rounded-full">
+                        <div class="bg-[#006A4E] h-2 rounded-full" style="width: 45%"></div>
+                    </div>
+                    <a href="course.html" class="mt-4 block text-center bg-gray-50 py-2 rounded-lg text-sm font-bold">Continue</a>
+                </div>
+                </div>
+        </main>
+    </div>
+</body>
+</html>
