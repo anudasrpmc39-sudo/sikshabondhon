@@ -1,0 +1,36 @@
+:root {
+    --primary: #006A4E;
+    --accent: #F42A41;
+    --bg-light: #F8FAFC;
+    --text-dark: #1E293B;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(226, 232, 240, 1);
+}
+
+/* Custom Progress Bar Animation */
+.progress-fill {
+    transition: width 1s ease-in-out;
+}
